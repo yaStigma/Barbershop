@@ -10,6 +10,7 @@
   --bg-color-main: #ffffff;
   --bg-color-dark: #191c26;
   --bg-color-sect: #f7f7f7;
+  --bg-button: rgba(255, 108, 0, 0);
   --bg-button-active: #ff6c00;
   --button-color-border: #ff6c00;
   --bg-gradient-card-1: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
@@ -20,12 +21,48 @@
 }
 
 body {
-    background-color: var(--bg-color-main);
-    color: var(--color-text-main-grey);
-    font-family: var(--fond-main);
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
+  background-color: var(--bg-color-main);
+  color: var(--color-text-main-grey);
+  font-family: var(--fond-main);
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*header*/
+
+.header {
+  background-color: var(--bg-color-dark);
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text-white);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.1em;
+}
+.link:hover,
+.link:focus {
+color: var(--color-text-accent);
+}
+.btn {
+  color: var(--color-text-white);
+  background-color: var(--bg-button);
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  border-color: var(--button-color-border);
+  border-radius: 25px;
+}
+.btn:hover,
+.btn:focus {
+    background-color: var(--color-text-accent);
+}
+/*hero*/
