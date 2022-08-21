@@ -65,4 +65,71 @@ color: var(--color-text-accent);
 .btn:focus {
     background-color: var(--color-text-accent);
 }
-/*hero*/
+/*main*/
+
+.section-hero {
+    background-color: var(--bg-color-dark);   
+}
+.link-social {
+   color: var(--color-text-dark); 
+    font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+letter-spacing: 0.2em;
+}
+.uppertitle {
+    color: var(--color-text-dark);
+    font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+letter-spacing: 0.1em;
+text-transform: uppercase;
+}
+.hero-uppertitle {
+color:var(--color-text-transparent-grey);
+}
+
+.main-title {
+    color: var(--color-text-dark);
+    font-family: var(--fond-accent);
+    font-weight: 700;
+font-size: 42px;
+line-height: calc(49 / 42);
+letter-spacing: 0.05em;
+}
+.hero-title {
+    color: var(--color-text-white);
+    font-size: 72px;
+    line-height: calc(85 / 72);
+       letter-spacing: 0.05em;
+    
+}
+
+.subtitle {
+font-size: 18px;
+line-height: calc(30 / 18);
+letter-spacing: 0.02em;
+}
+.hero-subtitle {
+   color: var(--color-text-secondary-grey);
+}
+.desc {
+    line-height: calc(26 / 14);
+letter-spacing: 0.02em;
+}
+.btn-back {
+    background-color: var(--bg-button);
+    color: var(--color-text-transparent-grey);
+font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+letter-spacing: 0.1em;
+}
+.btn-forward {
+    background-color: var(--bg-button);
+    font-weight: 600;
+font-size: 11px;
+line-height: calc(15 / 11);
+text-align: right;
+letter-spacing: 0.1em;
+}
