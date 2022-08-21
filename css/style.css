@@ -1,0 +1,31 @@
+:root {
+  /*text*/
+  --color-text-dark: #303030;
+  --color-text-white: #ffffff;
+  --color-text-main-grey: #555555;
+  --color-text-secondary-grey: #9da4bd;
+  --color-text-transparent-grey: rgba(157, 164, 189, 0.6);
+  --color-text-accent: #ff6c00;
+  /*background*/
+  --bg-color-main: #ffffff;
+  --bg-color-dark: #191c26;
+  --bg-color-sect: #f7f7f7;
+  --bg-button-active: #ff6c00;
+  --button-color-border: #ff6c00;
+  --bg-gradient-card-1: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+  --bg-gradient-card-2: linear-gradient(180deg, #090b13 0%, rgba(9, 11, 19, 0.2) 100%);
+  /*fonds*/
+  --fond-main: 'Open Sans', sans-serif;
+  --fond-accent: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color-main);
+    color: var(--color-text-main-grey);
+    font-family: var(--fond-main);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/*header*/
